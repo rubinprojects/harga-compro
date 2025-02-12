@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rincian Harga Web Design & Hosting ( Company Profile )</title>
   <style>
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease-in-out;
+      z-index: 1000;
+    }
+    
+    .whatsapp-button:hover {
+      transform: scale(1.1);
+    }
+    
+    .whatsapp-button img {
+      width: 40px;
+      height: 40px;
+    }
     /* Responsive Title Fix */
     @media (min-width: 1024px) {
       header h1 { font-size: 28px; margin-top: 15px; }
@@ -127,10 +152,12 @@
     </ul>
   </section>
 
-  
-<footer style="margin-top: 50px;">
+<footer style="margin-top: 0px;">
     <div style="font-size: 20px; font-family: 'Cursive', sans-serif; color: #A5B4FC; font-weight: bold; display: inline-block; border: 2px solid #A5B4FC; padding: 5px 10px; border-radius: 10px; margin-bottom: 10px;">Rubin <span style="color: #F87171;">Project's</span></div><br>
     &copy; 2025 Rubin Project's. All rights reserved.
   </footer>
+  <a href="https://wa.me/6285954632914" class="whatsapp-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
 </body>
 </html>
