@@ -5,10 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rincian Harga Web Design & Hosting ( Company Profile )</title>
   <style>
+    /* Responsive Title Fix */
+    @media (min-width: 1024px) {
+      header h1 { font-size: 28px; margin-top: 15px; }
+      section h2 { margin-top: 30px; font-size: 26px; }
+    }
+    @media (max-width: 1024px) {
+      header h1 { font-size: 24px; margin-top: 20px; }
+      section h2 { margin-top: 25px; font-size: 22px; }
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 20px; margin-top: 25px; }
+      section h2 { margin-top: 20px; font-size: 20px; }
+    }
+    @media (max-width: 480px) { header h1 { font-size: 18px; margin-top: 50px; }
+      section h2 { margin-top: 15px; font-size: 18px; }
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header h1 { font-size: 18px; }
+      section { padding: 80px 10px 30px; }
+      table { width: 100%; font-size: 14px; }
+      table th, table td { padding: 8px 10px; }
+      a.button { padding: 10px 20px; font-size: 14px; }
+      footer { padding: 15px 0; font-size: 14px; }
+    }
+    @media (max-width: 480px) { header h1 { font-size: 14px; }
+      table { font-size: 12px; }
+      a.button { padding: 8px 15px; font-size: 12px; }
+      footer { font-size: 12px; }
+    }
+
     body, html { margin: 0; padding: 0; font-family: Arial, sans-serif; overflow-x: hidden; scroll-behavior: smooth; }
     header { background: #1E3A8A; color: white; padding: 10px 5px; margin-bottom: 20px; text-align: center; position: fixed; width: 100%; z-index: 10; box-shadow: 0 2px 4px rgba(0,0,0,0.2); transition: background 0.3s; }
     section { padding: 100px 10px 50px; text-align: center; }
-    #pricing { background: transparent; padding-bottom: 30px; }
+    #pricing { background: transparent; padding-top: 80px; padding-bottom: 30px; }
     table { margin: 10px auto; background: #F8F9FA; color: black; border-collapse: collapse; width: 95%; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden; }
     table th, table td { padding: 10px 15px; border: 1px solid #ddd; }
     table th { background: #1E3A8A; color: white; }
@@ -32,11 +64,11 @@
 <body>
   <header>
     <div style="font-size: 24px; font-family: 'Cursive', sans-serif; color: #A5B4FC; font-weight: bold; display: inline-block; border: 2px solid #A5B4FC; padding: 5px 10px; border-radius: 10px;">Rubin <span style="color: #F87171;">Project's</span></div>
-    <h1 style="font-size: 24px; margin-top: 10px;">Rincian Harga Web Design & Hosting ( Company Profile )</h1>
+    <h1 style="font-size: 20px; margin-top: 10px;">Rincian Harga Web Design & Hosting ( Company Profile )</h1>
   </header>
 
   
-<section id="pricing">
+<section id="pricing" style="padding-top: 120px;">
     <h2>Rincian Harga Layanan Web Design</h2>
     <table>
       <tr>
